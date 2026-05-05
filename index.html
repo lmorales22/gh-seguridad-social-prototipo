@@ -6,22 +6,20 @@
     <title>GH Seguridad Social</title>
     <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="10" fill="%2317211f"/><text x="12" y="40" font-size="24" font-family="Arial" font-weight="700" fill="white">GH</text></svg>' />
     <link rel="preconnect" href="https://unpkg.com" />
-    <link rel="stylesheet" href="./styles.css?v=5" />
+    <link rel="stylesheet" href="./styles.css?v=7" />
   </head>
   <body>
     <div class="app-shell">
       <aside class="sidebar" aria-label="Navegación principal">
         <div class="brand">
-          <span class="brand-mark">
-            <img src="./assets/logos/tottem-architecture-white.png" alt="Tottem Architecture" />
-          </span>
-          <div>
+          <img class="brand-logo" src="./assets/logos/tottem-architecture-white.png" alt="Tottem Architecture" />
+          <div class="brand-context">
             <strong>Gestión Humana</strong>
             <span>Seguridad Social</span>
           </div>
         </div>
 
-        <nav class="nav-list">
+        <nav class="nav">
           <button class="nav-item active" type="button" data-view="dashboard">
             <i data-lucide="layout-dashboard"></i>
             <span>Resumen</span>
@@ -48,7 +46,7 @@
           </button>
         </nav>
 
-        <div class="source-box">
+        <div class="sidebar-note">
           <span>Fuente inicial</span>
           <strong>INGRESOS Y RETIROS</strong>
           <small id="seedMeta">Excel importado</small>
@@ -57,55 +55,57 @@
 
       <main class="workspace">
         <header class="topbar">
-          <div>
+          <div class="topbar-copy">
             <p class="eyebrow">Gestión humana</p>
             <h1 id="pageTitle">Resumen operativo</h1>
           </div>
-          <div class="top-actions">
-            <button class="ghost-button" type="button" id="exportPlanillaBtn">
-              <i data-lucide="file-spreadsheet"></i>
-              <span>Planilla XLSX</span>
-            </button>
-            <button class="ghost-button" type="button" id="exportPilaBtn">
-              <i data-lucide="file-down"></i>
-              <span>PILA CSV</span>
-            </button>
-            <button class="ghost-button" type="button" id="exportJsonBtn">
-              <i data-lucide="download"></i>
-              <span>JSON</span>
-            </button>
-            <button class="ghost-button" type="button" id="importJsonBtn">
-              <i data-lucide="upload"></i>
-              <span>Importar</span>
-            </button>
-            <button class="primary-button" type="button" id="newWorkerBtn">
-              <i data-lucide="user-plus"></i>
-              <span>Trabajador</span>
-            </button>
+          <div class="topbar-actions">
+            <div class="export-actions">
+              <button class="ghost-button" type="button" id="exportPlanillaBtn">
+                <i data-lucide="file-spreadsheet"></i>
+                <span>Planilla XLSX</span>
+              </button>
+              <button class="ghost-button" type="button" id="exportPilaBtn">
+                <i data-lucide="file-down"></i>
+                <span>PILA CSV</span>
+              </button>
+              <button class="ghost-button" type="button" id="exportJsonBtn">
+                <i data-lucide="download"></i>
+                <span>JSON</span>
+              </button>
+              <button class="ghost-button" type="button" id="importJsonBtn">
+                <i data-lucide="upload"></i>
+                <span>Importar</span>
+              </button>
+              <button class="primary-button" type="button" id="newWorkerBtn">
+                <i data-lucide="user-plus"></i>
+                <span>Trabajador</span>
+              </button>
+            </div>
+
+            <section class="filters" aria-label="Filtros">
+              <label class="field search-field">
+                <span>Buscar</span>
+                <input id="searchInput" type="search" placeholder="Nombre, cédula, EPS..." autocomplete="off" />
+              </label>
+              <label class="field">
+                <span>Mes</span>
+                <select id="monthSelect"></select>
+              </label>
+              <label class="field">
+                <span>Contratista</span>
+                <select id="contractorSelect"></select>
+              </label>
+              <label class="field">
+                <span>EPS</span>
+                <select id="epsSelect"></select>
+              </label>
+              <button class="icon-button" type="button" id="clearFiltersBtn" aria-label="Limpiar filtros" title="Limpiar filtros">
+                <i data-lucide="x"></i>
+              </button>
+            </section>
           </div>
         </header>
-
-        <section class="filters" aria-label="Filtros">
-          <label class="field search-field">
-            <span>Buscar</span>
-            <input id="searchInput" type="search" placeholder="Nombre, cédula, EPS..." autocomplete="off" />
-          </label>
-          <label class="field">
-            <span>Mes</span>
-            <select id="monthSelect"></select>
-          </label>
-          <label class="field">
-            <span>Contratista</span>
-            <select id="contractorSelect"></select>
-          </label>
-          <label class="field">
-            <span>EPS</span>
-            <select id="epsSelect"></select>
-          </label>
-          <button class="icon-button" type="button" id="clearFiltersBtn" aria-label="Limpiar filtros" title="Limpiar filtros">
-            <i data-lucide="x"></i>
-          </button>
-        </section>
 
         <section id="content" class="content" aria-live="polite"></section>
       </main>
@@ -217,8 +217,8 @@
 
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-    <script src="./data/seed-data.js?v=5"></script>
-    <script src="./data/planilla-reference.js?v=5"></script>
-    <script src="./app.js?v=5"></script>
+    <script src="./data/seed-data.js?v=7"></script>
+    <script src="./data/planilla-reference.js?v=7"></script>
+    <script src="./app.js?v=7"></script>
   </body>
 </html>

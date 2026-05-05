@@ -407,8 +407,34 @@ function renderDashboard() {
   const pendingEvents = stats.monthEvents.filter(eventHasPending).slice(0, 8);
   const epsRows = buildEpsRows(stats.monthEvents);
   const closed = state.data.settings.closedMonths.includes(state.filters.month);
+  const eventCount = stats.monthEvents.length;
+  const prepSegments = [
+    completion(stats.monthEvents, "ingreso", "arlOk"),
+    completion(stats.monthEvents, "ingreso", "epsOk"),
+    completion(stats.monthEvents, "retiro", "epsOk"),
+    completion(stats.monthEvents, "ingreso", "pilaOk", true),
+  ];
+  const prepPercent = eventCount ? Math.round(prepSegments.reduce((sum, value) => sum + value, 0) / prepSegments.length) : 100;
 
   $("#content").innerHTML = `
+    <section class="summary-hero" style="--summary-progress:${prepPercent}%">
+      <div class="summary-hero-copy">
+        <p class="summary-report-label">Corte operativo</p>
+        <h2>Seguridad Social</h2>
+        <p>Liquidación de ${monthLabel(state.filters.month)} · ${closed ? "mes marcado como liquidado" : "mes abierto para novedades"}.</p>
+        <div class="summary-hero-meta">
+          <span>${stats.active} trabajadores vigentes</span>
+          <span>${stats.settlementRows.length} en base PILA</span>
+          <span>${stats.pilaPendiente} novedades por cerrar</span>
+        </div>
+      </div>
+      <div class="summary-progress">
+        <span>${prepPercent}%</span>
+        <small>Preparación PILA</small>
+        <em>${closed ? "Corte liquidado" : "Listo al corte"}</em>
+      </div>
+    </section>
+
     <section class="kpi-grid">
       ${kpi("Trabajadores vigentes", stats.active, "active")}
       ${kpi(`A liquidar ${monthLabel(state.filters.month)}`, stats.settlementRows.length, "base")}
@@ -812,9 +838,11 @@ function workItem(event) {
 }
 
 function renderDetailPanel() {
+  const panel = $("#detailPanel");
   const worker = state.selectedWorkerId ? getWorker(state.selectedWorkerId) : null;
+  panel.classList.toggle("is-open", Boolean(worker));
   if (!worker) {
-    $("#detailPanel").innerHTML = `
+    panel.innerHTML = `
       <div class="detail-empty">
         <div>
           <i data-lucide="panel-right"></i>
@@ -830,14 +858,19 @@ function renderDetailPanel() {
   const visibleEvent = event ?? blankEvent(worker.id, state.filters.month);
   const currentStatus = derived.pending ? "pending" : derived.status;
 
-  $("#detailPanel").innerHTML = `
+  panel.innerHTML = `
     <div class="detail-card">
       <div class="detail-title">
         <div>
           <p class="eyebrow">${escapeHtml(worker.cedula || "Sin cédula")}</p>
           <h2>${escapeHtml(fullName(worker) || "Sin nombre")}</h2>
         </div>
-        <span class="status-chip ${currentStatus}"><span class="dot"></span>${derived.pending ? "Pendiente" : derived.statusLabel}</span>
+        <div class="detail-title-actions">
+          <span class="status-chip ${currentStatus}"><span class="dot"></span>${derived.pending ? "Pendiente" : derived.statusLabel}</span>
+          <button class="icon-button" type="button" data-action="close-detail" aria-label="Cerrar detalle" title="Cerrar detalle">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
       </div>
 
       <section class="detail-section">
@@ -1509,6 +1542,10 @@ function bindEvents() {
       const action = actionButton.dataset.action;
       if (action === "select-worker") {
         state.selectedWorkerId = actionButton.dataset.workerId;
+        render();
+      }
+      if (action === "close-detail") {
+        state.selectedWorkerId = null;
         render();
       }
       if (action === "edit-worker") openWorkerDialog(actionButton.dataset.workerId);

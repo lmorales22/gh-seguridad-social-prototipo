@@ -1,6 +1,6 @@
 window.SEED_DATA = {
   "meta": {
-    "sourceFile": "Datos demo anonimizados",
+    "sourceFile": "INGRESOS Y RETIROS (SEGURIDAD SOCIAL).xlsx",
     "sourceSheets": [
       "BASE DE DATOS",
       "ABRIL-26",
@@ -10,216 +10,216 @@ window.SEED_DATA = {
     ],
     "generatedAt": "2026-05-05T11:59:38",
     "notes": [
-      "Datos anonimizados para prototipo público en GitHub Pages.",
-      "La versión local conserva los Excel reales fuera del repositorio público."
+      "Datos semilla extraídos del Excel original. El prototipo guarda cambios en localStorage.",
+      "Las celdas #REF! y ceros heredados se limpiaron como campos vacíos."
     ]
   },
   "workers": [
     {
-      "id": "w-demo-001",
-      "nombres": "ANDRES",
-      "apellidos": "GOMEZ PEREZ",
-      "cedula": "1000000001",
-      "direccion": "Calle 21 # 11-101",
-      "telefono": "3000000001",
+      "id": "w-PT6645170",
+      "nombres": "ROMMEL ALIGHYERE",
+      "apellidos": "ANGULO MAZA",
+      "cedula": "PT 6645170",
+      "direccion": "CALLE 2B CRA 81A - 55",
+      "telefono": "301 754 27 71",
       "correo": null,
       "eps": "SAVIA SALUD",
-      "pension": "PORVENIR",
+      "pension": null,
       "contratista": "ROMMEL",
-      "obra": "ENVY",
+      "obra": "RONDALLA - VARIOS",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 1
+        "sheet": "BASE DE DATOS",
+        "row": 164
       }
     },
     {
-      "id": "w-demo-002",
-      "nombres": "CAMILA",
-      "apellidos": "RUIZ CARDONA",
-      "cedula": "1000000002",
-      "direccion": "Calle 22 # 12-102",
-      "telefono": "3000000002",
+      "id": "w-71368815",
+      "nombres": "ARGIDIO ESTEBAN",
+      "apellidos": "ARDILA MEJIA",
+      "cedula": "71368815",
+      "direccion": null,
+      "telefono": "300 503 12 61",
       "correo": null,
-      "eps": "SALUD TOTAL",
-      "pension": "PROTECCION",
+      "eps": null,
+      "pension": null,
       "contratista": "EMPRESA",
       "obra": "VIENTOS DE LA COLINA",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 2
-      }
-    },
-    {
-      "id": "w-demo-003",
-      "nombres": "JUAN",
-      "apellidos": "TORRES RESTREPO",
-      "cedula": "1000000003",
-      "direccion": "Calle 23 # 13-103",
-      "telefono": "3000000003",
-      "correo": null,
-      "eps": "SALUD TOTAL",
-      "pension": "COLFONDOS",
-      "contratista": "GRILLO",
-      "obra": "IUSH",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 3
-      }
-    },
-    {
-      "id": "w-demo-004",
-      "nombres": "MARIA",
-      "apellidos": "RAMIREZ MARTINEZ",
-      "cedula": "1000000004",
-      "direccion": "Calle 24 # 14-104",
-      "telefono": "3000000004",
-      "correo": null,
-      "eps": "SURA",
-      "pension": "COLPENSIONES",
-      "contratista": "EMPRESA",
-      "obra": "TERCER MILENIO",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
+        "sheet": "BASE DE DATOS",
         "row": 4
       }
     },
     {
-      "id": "w-demo-005",
-      "nombres": "LUISA",
-      "apellidos": "CASTRO HERNANDEZ",
-      "cedula": "1000000005",
-      "direccion": "Calle 25 # 15-105",
-      "telefono": "3000000005",
+      "id": "w-1035225591",
+      "nombres": "KENNIER BERNANRDO",
+      "apellidos": "AREIZA CASTAÑO",
+      "cedula": "1035225591",
+      "direccion": null,
+      "telefono": null,
+      "correo": null,
+      "eps": "SALUD TOTAL",
+      "pension": null,
+      "contratista": "KENIER (EMPRESA)",
+      "obra": null,
+      "estadoManual": null,
+      "source": {
+        "sheet": "MAR-26",
+        "cell": "A18"
+      }
+    },
+    {
+      "id": "w-8125734",
+      "nombres": "JONNATHAN STIVE",
+      "apellidos": "AYALA RUIZ",
+      "cedula": "8125734",
+      "direccion": null,
+      "telefono": null,
+      "correo": null,
+      "eps": "SURA",
+      "pension": "COLPENSIONES",
+      "contratista": "EMPRESA",
+      "obra": "TERCER MILENIO",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 100
+      }
+    },
+    {
+      "id": "w-98578370",
+      "nombres": "JOHN JAIRO",
+      "apellidos": "BARRIOS CORREA",
+      "cedula": "98578370",
+      "direccion": "CARRERA 43A # 124 - 50",
+      "telefono": "315 839 86 26",
       "correo": null,
       "eps": "SAVIA SALUD",
       "pension": "COLPENSIONES",
       "contratista": "CARLOS RUEDA",
-      "obra": "CASA FRANCISCANA",
+      "obra": "PARROQUIA MARIA REINA",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 5
+        "sheet": "BASE DE DATOS",
+        "row": 95
       }
     },
     {
-      "id": "w-demo-006",
-      "nombres": "CARLOS",
-      "apellidos": "MORALES LOPEZ",
-      "cedula": "1000000006",
-      "direccion": "Calle 26 # 16-106",
-      "telefono": "3000000006",
+      "id": "w-1007781559",
+      "nombres": "JAIDER LUIS",
+      "apellidos": "BOHORQUEZ PEREZ",
+      "cedula": "1007781559",
+      "direccion": "CARRERA 90 # 86A - 21 ROBLEDO",
+      "telefono": "3178163480",
       "correo": null,
-      "eps": "NUEVA EPS",
-      "pension": "PROTECCION",
-      "contratista": "JAIR",
+      "eps": "MUTUAL",
+      "pension": null,
+      "contratista": "JONATHAN",
       "obra": "TERCER MILENIO",
       "estadoManual": "ABRIL26-03",
       "source": {
-        "sheet": "DEMO",
-        "row": 6
+        "sheet": "BASE DE DATOS",
+        "row": 101
       }
     },
     {
-      "id": "w-demo-007",
-      "nombres": "SANTIAGO",
-      "apellidos": "PEREZ SANCHEZ",
-      "cedula": "1000000007",
-      "direccion": "Calle 27 # 17-107",
-      "telefono": "3000000007",
+      "id": "w-84091582",
+      "nombres": "EVINSON ENRIQUE",
+      "apellidos": "BRITO FERNANDEZ",
+      "cedula": "84091582",
+      "direccion": null,
+      "telefono": null,
       "correo": null,
-      "eps": "SALUD TOTAL",
-      "pension": "COLFONDOS",
+      "eps": null,
+      "pension": null,
       "contratista": "EMPRESA",
       "obra": "VIENTOS DE LA COLINA",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 7
+        "sheet": "BASE DE DATOS",
+        "row": 46
       }
     },
     {
-      "id": "w-demo-008",
-      "nombres": "LAURA",
-      "apellidos": "CARDONA VARGAS",
-      "cedula": "1000000008",
-      "direccion": "Calle 28 # 18-108",
-      "telefono": "3000000008",
+      "id": "w-1035233589",
+      "nombres": "JORGE ALBERTO",
+      "apellidos": "BURKE QUINTERO",
+      "cedula": "1035233589",
+      "direccion": "CALLE 31 # 44 - 222 BELLO",
+      "telefono": "3046248370",
       "correo": null,
       "eps": "SURA",
       "pension": "COLPENSIONES",
       "contratista": "CARLOS RUEDA",
-      "obra": "ENVY",
+      "obra": "IGLESIA SAN PIO",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 8
+        "sheet": "BASE DE DATOS",
+        "row": 97
       }
     },
     {
-      "id": "w-demo-009",
-      "nombres": "DANIEL",
-      "apellidos": "RESTREPO MEJIA",
-      "cedula": "1000000009",
-      "direccion": "Calle 29 # 19-109",
-      "telefono": "3000000009",
+      "id": "w-98622665",
+      "nombres": "WILMAN OCTAVIO",
+      "apellidos": "CAICEDO",
+      "cedula": "98622665",
+      "direccion": "CALLE 65A CON CR 102C - 299 INT 209 LA AURORA",
+      "telefono": "3216336446",
       "correo": null,
       "eps": "SURA",
       "pension": "COLFONDOS",
-      "contratista": "JHONATAN RUIZ",
+      "contratista": "JONATHAN RUIZ",
       "obra": "TERCER MILENIO",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 9
+        "sheet": "BASE DE DATOS",
+        "row": 212
       }
     },
     {
-      "id": "w-demo-010",
-      "nombres": "PAULA",
-      "apellidos": "MARTINEZ ARIAS",
-      "cedula": "1000000010",
-      "direccion": "Calle 30 # 20-110",
-      "telefono": "3000000010",
+      "id": "w-71367851",
+      "nombres": "EDWIN ALBERTO",
+      "apellidos": "CALLE CESPEDES",
+      "cedula": "71367851",
+      "direccion": "CARRERA 32 A # 108 - 42",
+      "telefono": null,
       "correo": null,
-      "eps": "SURA",
-      "pension": "PROTECCION",
+      "eps": "ALIANZA",
+      "pension": null,
       "contratista": "EMPRESA",
-      "obra": "IUSH",
+      "obra": "TORRELAGUNA (TOTTEM)",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 10
+        "sheet": "BASE DE DATOS",
+        "row": 48
       }
     },
     {
-      "id": "w-demo-011",
-      "nombres": "MATEO",
-      "apellidos": "HERNANDEZ ROJAS",
-      "cedula": "1000000011",
-      "direccion": "Calle 31 # 21-111",
-      "telefono": "3000000011",
+      "id": "w-1049942190",
+      "nombres": "LUIS ALBERTO",
+      "apellidos": "CAMPO CABARCA",
+      "cedula": "1049942190",
+      "direccion": null,
+      "telefono": null,
       "correo": null,
-      "eps": "NUEVA EPS",
-      "pension": "COLFONDOS",
+      "eps": null,
+      "pension": null,
       "contratista": "EFREN",
       "obra": "RONDALLA",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 11
+        "sheet": "BASE DE DATOS",
+        "row": 122
       }
     },
     {
-      "id": "w-demo-012",
-      "nombres": "VALENTINA",
-      "apellidos": "LOPEZ OSPINA",
-      "cedula": "1000000012",
-      "direccion": "Calle 32 # 22-112",
-      "telefono": "3000000012",
+      "id": "w-1039462687",
+      "nombres": "YORDAN YESID",
+      "apellidos": "CARO PEREZ",
+      "cedula": "1039462687",
+      "direccion": null,
+      "telefono": null,
       "correo": null,
       "eps": "SURA",
       "pension": "PORVENIR",
@@ -227,17 +227,17 @@ window.SEED_DATA = {
       "obra": "RONDALLA",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 12
+        "sheet": "BASE DE DATOS",
+        "row": 231
       }
     },
     {
-      "id": "w-demo-013",
-      "nombres": "SEBASTIAN",
-      "apellidos": "SANCHEZ SALAZAR",
-      "cedula": "1000000013",
-      "direccion": "Calle 33 # 23-113",
-      "telefono": "3000000013",
+      "id": "w-1000305031",
+      "nombres": "NEIDER STEVIN",
+      "apellidos": "CHAMORRO",
+      "cedula": "1000305031",
+      "direccion": null,
+      "telefono": null,
       "correo": null,
       "eps": "SURA",
       "pension": "PROTECCION",
@@ -245,17 +245,17 @@ window.SEED_DATA = {
       "obra": "RONDALLA",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 13
+        "sheet": "BASE DE DATOS",
+        "row": 143
       }
     },
     {
-      "id": "w-demo-014",
-      "nombres": "NATALIA",
-      "apellidos": "VARGAS MUNOZ",
-      "cedula": "1000000014",
-      "direccion": "Calle 34 # 24-114",
-      "telefono": "3000000014",
+      "id": "w-1036651870",
+      "nombres": "KEVIN DAVID",
+      "apellidos": "CORREA CORREA",
+      "cedula": "1036651870",
+      "direccion": "CALLE 116 # 74 - 24",
+      "telefono": null,
       "correo": null,
       "eps": "SURA",
       "pension": "PROTECCION",
@@ -263,17 +263,17 @@ window.SEED_DATA = {
       "obra": "SAN PIO",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 14
+        "sheet": "BASE DE DATOS",
+        "row": 110
       }
     },
     {
-      "id": "w-demo-015",
-      "nombres": "FELIPE",
-      "apellidos": "MEJIA GOMEZ",
-      "cedula": "1000000015",
-      "direccion": "Calle 35 # 25-115",
-      "telefono": "3000000015",
+      "id": "w-1017124356",
+      "nombres": "CARLOS MARIO",
+      "apellidos": "GARCIA",
+      "cedula": "1017124356",
+      "direccion": null,
+      "telefono": null,
       "correo": null,
       "eps": "SALUD TOTAL",
       "pension": "PROTECCION",
@@ -281,377 +281,377 @@ window.SEED_DATA = {
       "obra": "ENVY",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 15
-      }
-    },
-    {
-      "id": "w-demo-016",
-      "nombres": "SOFIA",
-      "apellidos": "ARIAS RUIZ",
-      "cedula": "1000000016",
-      "direccion": "Calle 36 # 26-116",
-      "telefono": "3000000016",
-      "correo": null,
-      "eps": "SAVIA SALUD",
-      "pension": "COLPENSIONES",
-      "contratista": "CARLOS RUEDA",
-      "obra": "SAN PIO",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 16
-      }
-    },
-    {
-      "id": "w-demo-017",
-      "nombres": "DAVID",
-      "apellidos": "ROJAS TORRES",
-      "cedula": "1000000017",
-      "direccion": "Calle 37 # 27-117",
-      "telefono": "3000000017",
-      "correo": null,
-      "eps": "SALUD TOTAL",
-      "pension": "PORVENIR",
-      "contratista": "CARLOS RUEDA",
-      "obra": "SAN PIO",
-      "estadoManual": "ABRIL26 - 07",
-      "source": {
-        "sheet": "DEMO",
-        "row": 17
-      }
-    },
-    {
-      "id": "w-demo-018",
-      "nombres": "ISABELA",
-      "apellidos": "OSPINA RAMIREZ",
-      "cedula": "1000000018",
-      "direccion": "Calle 38 # 28-118",
-      "telefono": "3000000018",
-      "correo": null,
-      "eps": "SAVIA SALUD",
-      "pension": "PROTECCION",
-      "contratista": "EFREN",
-      "obra": "RONDALLA",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 18
-      }
-    },
-    {
-      "id": "w-demo-019",
-      "nombres": "JORGE",
-      "apellidos": "SALAZAR CASTRO",
-      "cedula": "1000000019",
-      "direccion": "Calle 39 # 29-119",
-      "telefono": "3000000019",
-      "correo": null,
-      "eps": "SANITAS",
-      "pension": "COLFONDOS",
-      "contratista": "CARLOS RUEDA",
-      "obra": "SAN PIO",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 19
-      }
-    },
-    {
-      "id": "w-demo-020",
-      "nombres": "ALEJANDRA",
-      "apellidos": "MUNOZ MORALES",
-      "cedula": "1000000020",
-      "direccion": "Calle 40 # 30-120",
-      "telefono": "3000000020",
-      "correo": null,
-      "eps": "NUEVA EPS",
-      "pension": "PROTECCION",
-      "contratista": "JAIR",
-      "obra": "VIENTOS DE LA COLINA",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 20
-      }
-    },
-    {
-      "id": "w-demo-021",
-      "nombres": "ANDRES",
-      "apellidos": "GOMEZ PEREZ",
-      "cedula": "1000000021",
-      "direccion": "Calle 41 # 31-121",
-      "telefono": "3000000021",
-      "correo": null,
-      "eps": "NUEVA EPS",
-      "pension": "PORVENIR",
-      "contratista": "EMPRESA",
-      "obra": "CASA FRANCISCANA",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 21
-      }
-    },
-    {
-      "id": "w-demo-022",
-      "nombres": "CAMILA",
-      "apellidos": "RUIZ CARDONA",
-      "cedula": "1000000022",
-      "direccion": "Calle 42 # 32-122",
-      "telefono": "3000000022",
-      "correo": null,
-      "eps": "SALUD TOTAL",
-      "pension": "PROTECCION",
-      "contratista": "EFREN",
-      "obra": "RONDALLA",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 22
-      }
-    },
-    {
-      "id": "w-demo-023",
-      "nombres": "JUAN",
-      "apellidos": "TORRES RESTREPO",
-      "cedula": "1000000023",
-      "direccion": "Calle 43 # 33-123",
-      "telefono": "3000000023",
-      "correo": null,
-      "eps": "SURA",
-      "pension": "PORVENIR",
-      "contratista": "CARLOS RUEDA",
-      "obra": "RONDALLA",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 23
-      }
-    },
-    {
-      "id": "w-demo-024",
-      "nombres": "MARIA",
-      "apellidos": "RAMIREZ MARTINEZ",
-      "cedula": "1000000024",
-      "direccion": "Calle 44 # 34-124",
-      "telefono": "3000000024",
-      "correo": null,
-      "eps": "SANITAS",
-      "pension": "PORVENIR",
-      "contratista": "JAIR",
-      "obra": "IUSH",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 24
-      }
-    },
-    {
-      "id": "w-demo-025",
-      "nombres": "LUISA",
-      "apellidos": "CASTRO HERNANDEZ",
-      "cedula": "1000000025",
-      "direccion": "Calle 45 # 35-125",
-      "telefono": "3000000025",
-      "correo": null,
-      "eps": "NUEVA EPS",
-      "pension": "PORVENIR",
-      "contratista": "CARLOS RUEDA",
-      "obra": "SAN PIO",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
+        "sheet": "BASE DE DATOS",
         "row": 25
       }
     },
     {
-      "id": "w-demo-026",
-      "nombres": "CARLOS",
-      "apellidos": "MORALES LOPEZ",
-      "cedula": "1000000026",
-      "direccion": "Calle 46 # 36-126",
-      "telefono": "3000000026",
+      "id": "w-1020474788",
+      "nombres": "JUAN FERNANDO",
+      "apellidos": "GARCIA BEDOYA",
+      "cedula": "1020474788",
+      "direccion": "CALLE 63A # 56 - 29",
+      "telefono": null,
       "correo": null,
-      "eps": "SURA",
+      "eps": "SAVIA SALUD",
       "pension": "COLPENSIONES",
       "contratista": "CARLOS RUEDA",
+      "obra": "SAN PIO",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 99
+      }
+    },
+    {
+      "id": "w-98697154",
+      "nombres": "JOHAN ALEXANDER",
+      "apellidos": "GOMEZ JARAMILLO",
+      "cedula": "98697154",
+      "direccion": "CARRERA 46 # 57 - 104",
+      "telefono": "300 687 69 12",
+      "correo": null,
+      "eps": "SALUD TOTAL",
+      "pension": "PROTECCIÓN",
+      "contratista": "CARLOS RUEDA",
+      "obra": "SAN PIO",
+      "estadoManual": "ABRIL26 - 07",
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 103
+      }
+    },
+    {
+      "id": "w-PT5817314",
+      "nombres": "WANYER JOSE",
+      "apellidos": "GOMEZ MARTINEZ",
+      "cedula": "P.T 5817314",
+      "direccion": null,
+      "telefono": null,
+      "correo": null,
+      "eps": null,
+      "pension": null,
+      "contratista": "EFREN",
+      "obra": "RONDALLA",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 211
+      }
+    },
+    {
+      "id": "w-98773911",
+      "nombres": "YOJAN ARBEY",
+      "apellidos": "GOMEZ MUNERA",
+      "cedula": "98773911",
+      "direccion": null,
+      "telefono": null,
+      "correo": null,
+      "eps": null,
+      "pension": null,
+      "contratista": "CARLOS RUEDA",
+      "obra": "SAN PIO",
+      "estadoManual": null,
+      "source": {
+        "sheet": "MAR-26",
+        "cell": "S34"
+      }
+    },
+    {
+      "id": "w-PT6856753",
+      "nombres": "ADELSI ANTONIO",
+      "apellidos": "JIMENEZ CARRERO",
+      "cedula": "PT 6856753",
+      "direccion": "CALLE 34 AB # 126B - 108",
+      "telefono": "3217523930",
+      "correo": null,
+      "eps": "NUEVA EPS",
+      "pension": "PROTECCION",
+      "contratista": "ROMMEL (EMPRESA)",
+      "obra": "APARTAMENTO SIEMPRE VERDE",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 5
+      }
+    },
+    {
+      "id": "w-1017135390",
+      "nombres": "ESTEBAN",
+      "apellidos": "LEMOS CORREA",
+      "cedula": "1017135390",
+      "direccion": null,
+      "telefono": "300 101 07 83",
+      "correo": null,
+      "eps": "NUEVA EPS",
+      "pension": null,
+      "contratista": "EMPRESA",
       "obra": "CASA FRANCISCANA",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
+        "sheet": "BASE DE DATOS",
+        "row": 44
+      }
+    },
+    {
+      "id": "w-71364908",
+      "nombres": "CARLOS ALBERTO",
+      "apellidos": "LOPEZ CIRO",
+      "cedula": "71364908",
+      "direccion": null,
+      "telefono": null,
+      "correo": null,
+      "eps": null,
+      "pension": null,
+      "contratista": "EFREN",
+      "obra": "RONDALLA",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
         "row": 26
       }
     },
     {
-      "id": "w-demo-027",
-      "nombres": "SANTIAGO",
-      "apellidos": "PEREZ SANCHEZ",
-      "cedula": "1000000027",
-      "direccion": "Calle 47 # 37-127",
-      "telefono": "3000000027",
+      "id": "w-1001420789",
+      "nombres": "EDIRSON",
+      "apellidos": "LUJAN CANO",
+      "cedula": "1001420789",
+      "direccion": "CR 80 # 36A SUR - 09",
+      "telefono": "3242434871",
       "correo": null,
       "eps": "SURA",
       "pension": "PORVENIR",
       "contratista": "CARLOS RUEDA",
-      "obra": "VIENTOS DE LA COLINA",
+      "obra": null,
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 27
+        "sheet": "BASE DE DATOS",
+        "row": 47
       }
     },
     {
-      "id": "w-demo-028",
-      "nombres": "LAURA",
-      "apellidos": "CARDONA VARGAS",
-      "cedula": "1000000028",
-      "direccion": "Calle 48 # 38-128",
-      "telefono": "3000000028",
+      "id": "w-1214737881",
+      "nombres": "SANTIAGO ARLEY",
+      "apellidos": "MEJIA GOMEZ",
+      "cedula": "1214737881",
+      "direccion": null,
+      "telefono": null,
       "correo": null,
-      "eps": "SALUD TOTAL",
-      "pension": "COLPENSIONES",
-      "contratista": "CARLOS RUEDA",
-      "obra": "SAN PIO",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 28
-      }
-    },
-    {
-      "id": "w-demo-029",
-      "nombres": "DANIEL",
-      "apellidos": "RESTREPO MEJIA",
-      "cedula": "1000000029",
-      "direccion": "Calle 49 # 39-129",
-      "telefono": "3000000029",
-      "correo": null,
-      "eps": "SURA",
-      "pension": "COLFONDOS",
-      "contratista": "CARLOS RUEDA",
-      "obra": "SAN PIO",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 29
-      }
-    },
-    {
-      "id": "w-demo-030",
-      "nombres": "PAULA",
-      "apellidos": "MARTINEZ ARIAS",
-      "cedula": "1000000030",
-      "direccion": "Calle 50 # 40-130",
-      "telefono": "3000000030",
-      "correo": null,
-      "eps": "SANITAS",
-      "pension": "PROTECCION",
-      "contratista": "JHONATAN RUIZ",
-      "obra": "RONDALLA",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 30
-      }
-    },
-    {
-      "id": "w-demo-031",
-      "nombres": "MATEO",
-      "apellidos": "HERNANDEZ ROJAS",
-      "cedula": "1000000031",
-      "direccion": "Calle 51 # 41-131",
-      "telefono": "3000000031",
-      "correo": null,
-      "eps": "SURA",
-      "pension": "PROTECCION",
-      "contratista": "EMPRESA",
-      "obra": "IUSH",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 31
-      }
-    },
-    {
-      "id": "w-demo-032",
-      "nombres": "VALENTINA",
-      "apellidos": "LOPEZ OSPINA",
-      "cedula": "1000000032",
-      "direccion": "Calle 52 # 42-132",
-      "telefono": "3000000032",
-      "correo": null,
-      "eps": "SALUD TOTAL",
-      "pension": "COLPENSIONES",
-      "contratista": "JHONATAN RUIZ",
-      "obra": "TERCER MILENIO",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 32
-      }
-    },
-    {
-      "id": "w-demo-033",
-      "nombres": "SEBASTIAN",
-      "apellidos": "SANCHEZ SALAZAR",
-      "cedula": "1000000033",
-      "direccion": "Calle 53 # 43-133",
-      "telefono": "3000000033",
-      "correo": null,
-      "eps": "SAVIA SALUD",
+      "eps": "SAVIA",
       "pension": "PORVENIR",
-      "contratista": "EMPRESA",
-      "obra": "CASA FRANCISCANA",
-      "estadoManual": null,
-      "source": {
-        "sheet": "DEMO",
-        "row": 33
-      }
-    },
-    {
-      "id": "w-demo-034",
-      "nombres": "NATALIA",
-      "apellidos": "VARGAS MUNOZ",
-      "cedula": "1000000034",
-      "direccion": "Calle 54 # 44-134",
-      "telefono": "3000000034",
-      "correo": null,
-      "eps": "SURA",
-      "pension": "COLFONDOS",
       "contratista": "JAIR",
-      "obra": "VIENTOS DE LA COLINA",
+      "obra": null,
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
+        "sheet": "BASE DE DATOS",
+        "row": 170
+      }
+    },
+    {
+      "id": "w-1152219553",
+      "nombres": "CRISTIAN ALEXIS",
+      "apellidos": "MONTOYA DURANDO",
+      "cedula": "1152219553",
+      "direccion": "CALLE 81 CR 24 - 45 INT 205 MANRIQUE",
+      "telefono": "324 728 46 85",
+      "correo": null,
+      "eps": "NUEVA EPS",
+      "pension": "PORVENIR",
+      "contratista": "CARLOS RUEDA",
+      "obra": "PAR. MARIA REINA",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 24
+      }
+    },
+    {
+      "id": "w-1064310907",
+      "nombres": "DELSON SALGADO",
+      "apellidos": "MORENO",
+      "cedula": "1064310907",
+      "direccion": null,
+      "telefono": null,
+      "correo": null,
+      "eps": "SURA",
+      "pension": "COLPENSIONES",
+      "contratista": "CARLOS RUEDA",
+      "obra": null,
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
         "row": 34
       }
     },
     {
-      "id": "w-demo-035",
-      "nombres": "FELIPE",
-      "apellidos": "MEJIA GOMEZ",
-      "cedula": "1000000035",
-      "direccion": "Calle 55 # 45-135",
-      "telefono": "3000000035",
+      "id": "w-1128443231",
+      "nombres": "VLADIMIR",
+      "apellidos": "MUNERA BETANCUR",
+      "cedula": "1128443231",
+      "direccion": "DIAGONAL 54 # 17 - 100",
+      "telefono": null,
       "correo": null,
       "eps": "SURA",
-      "pension": "COLPENSIONES",
-      "contratista": "EMPRESA",
-      "obra": "TERCER MILENIO",
+      "pension": "PORVENIR",
+      "contratista": "CARLOS RUEDA",
+      "obra": null,
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 35
+        "sheet": "BASE DE DATOS",
+        "row": 201
       }
     },
     {
-      "id": "w-demo-036",
-      "nombres": "SOFIA",
-      "apellidos": "ARIAS RUIZ",
-      "cedula": "1000000036",
-      "direccion": "Calle 56 # 46-136",
-      "telefono": "3000000036",
+      "id": "w-1146437351",
+      "nombres": "CAMILO ALBERTO",
+      "apellidos": "MUÑOS HERNANDEZ",
+      "cedula": "1146437351",
+      "direccion": "DIAGONAL 42D # 33 - 06",
+      "telefono": "3207234802",
+      "correo": null,
+      "eps": "SALUD TOTAL",
+      "pension": "COLPENSIONES",
+      "contratista": "CARLOS RUEDA",
+      "obra": "SAN PIO",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 28
+      }
+    },
+    {
+      "id": "w-98716538",
+      "nombres": "YEDISON ANDRES",
+      "apellidos": "ORTEGA BEDOYA",
+      "cedula": "98716538",
+      "direccion": "CALLE 53A # 75 - 202",
+      "telefono": null,
+      "correo": null,
+      "eps": "SURA",
+      "pension": "COLFONDOS",
+      "contratista": "CARLOS RUEDA",
+      "obra": "SAN PIO",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 233
+      }
+    },
+    {
+      "id": "w-39427969",
+      "nombres": "MARIA SOLDERY",
+      "apellidos": "OSORIO BETANCUR",
+      "cedula": "39427969",
+      "direccion": "CARRERA 46B # 120 - 65",
+      "telefono": "3046798526",
+      "correo": null,
+      "eps": "SANITAS",
+      "pension": "PROTECCION",
+      "contratista": "MATEO ISAZA",
+      "obra": null,
+      "estadoManual": null,
+      "source": {
+        "sheet": "ENERO-26",
+        "cell": "A19"
+      }
+    },
+    {
+      "id": "w-71211820",
+      "nombres": "MIGUEL ANGEL",
+      "apellidos": "OSORIO LEGARDA",
+      "cedula": "71211820",
+      "direccion": null,
+      "telefono": null,
+      "correo": null,
+      "eps": "SURA",
+      "pension": "PROTECCION",
+      "contratista": "EMPRESA",
+      "obra": "RONDALLA (DIMARGAS)",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 131
+      }
+    },
+    {
+      "id": "w-1063787402",
+      "nombres": "ANDERSON STEVEN",
+      "apellidos": "PEÑATE MARTINEZ",
+      "cedula": "1063787402",
+      "direccion": "CALLE 83E # 58B - 13 BARRIO MORAVIA",
+      "telefono": "3001864129",
+      "correo": null,
+      "eps": "SAVIA",
+      "pension": "COLPENSIONES",
+      "contratista": "JHONATAN RUIZ",
+      "obra": "TERCER MILENIO",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 6
+      }
+    },
+    {
+      "id": "w-1001618370",
+      "nombres": "JUAN FELIPE",
+      "apellidos": "RAVE MONTOYA",
+      "cedula": "1001618370",
+      "direccion": null,
+      "telefono": null,
+      "correo": null,
+      "eps": null,
+      "pension": null,
+      "contratista": "EMPRESA",
+      "obra": "CASA FRANCISCANA",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 96
+      }
+    },
+    {
+      "id": "w-98708132",
+      "nombres": "JAIR ALEIRO",
+      "apellidos": "RODRIGUEZ OCAMPO",
+      "cedula": "98708132",
+      "direccion": "CR 29 # 107D - 29 APT 13",
+      "telefono": null,
+      "correo": null,
+      "eps": "SURA",
+      "pension": "COLFONDOS",
+      "contratista": "JAIR",
+      "obra": "TORRELAGUNA (TOTTEM)",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 94
+      }
+    },
+    {
+      "id": "w-PT7009675",
+      "nombres": "JOSE ALEXIS",
+      "apellidos": "ROMERO DE LA ROSA",
+      "cedula": "PT 7009675",
+      "direccion": "CARRERA 81B 1 SUR 36 INT 9901",
+      "telefono": "3226788040",
+      "correo": null,
+      "eps": "SURA",
+      "pension": "COLPENSIONES",
+      "contratista": "ROMMEL (EMPRESA)",
+      "obra": "APARTAMENTO SIEMPRE VERDE",
+      "estadoManual": null,
+      "source": {
+        "sheet": "BASE DE DATOS",
+        "row": 98
+      }
+    },
+    {
+      "id": "w-9155924",
+      "nombres": "EFREN",
+      "apellidos": "ROMERO TORRES",
+      "cedula": "9155924",
+      "direccion": null,
+      "telefono": null,
       "correo": null,
       "eps": "SALUD TOTAL",
       "pension": "PORVENIR",
@@ -659,17 +659,17 @@ window.SEED_DATA = {
       "obra": "RONDALLA",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 36
+        "sheet": "BASE DE DATOS",
+        "row": 45
       }
     },
     {
-      "id": "w-demo-037",
-      "nombres": "DAVID",
-      "apellidos": "ROJAS TORRES",
-      "cedula": "1000000037",
-      "direccion": "Calle 57 # 47-137",
-      "telefono": "3000000037",
+      "id": "w-1035228754",
+      "nombres": "CARLOS ALBERTO",
+      "apellidos": "RUEDA",
+      "cedula": "1035228754",
+      "direccion": null,
+      "telefono": null,
       "correo": null,
       "eps": "SURA",
       "pension": "COLPENSIONES",
@@ -677,17 +677,17 @@ window.SEED_DATA = {
       "obra": "IUSH",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 37
+        "sheet": "BASE DE DATOS",
+        "row": 27
       }
     },
     {
-      "id": "w-demo-038",
-      "nombres": "ISABELA",
-      "apellidos": "OSPINA RAMIREZ",
-      "cedula": "1000000038",
-      "direccion": "Calle 58 # 48-138",
-      "telefono": "3000000038",
+      "id": "w-1000407886",
+      "nombres": "YURI LEANDRA",
+      "apellidos": "SALAS BENITEZ",
+      "cedula": "1000407886",
+      "direccion": null,
+      "telefono": null,
       "correo": null,
       "eps": "SURA",
       "pension": "COLFONDOS",
@@ -695,90 +695,90 @@ window.SEED_DATA = {
       "obra": "SAN PIO",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 38
+        "sheet": "BASE DE DATOS",
+        "row": 232
       }
     },
     {
-      "id": "w-demo-039",
-      "nombres": "JORGE",
-      "apellidos": "SALAZAR CASTRO",
-      "cedula": "1000000039",
-      "direccion": "Calle 59 # 49-139",
-      "telefono": "3000000039",
+      "id": "w-106431097",
+      "nombres": "DELSON",
+      "apellidos": "SALGADO MORENO",
+      "cedula": "106431097",
+      "direccion": "CALLE 62A # 64 - 22",
+      "telefono": "3001067183",
       "correo": null,
       "eps": "SURA",
       "pension": "COLPENSIONES",
       "contratista": "CARLOS RUEDA",
-      "obra": "SAN PIO",
+      "obra": "IUSH, SAN PIO",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 39
+        "sheet": "ENERO-26",
+        "cell": "S2"
       }
     },
     {
-      "id": "w-demo-040",
-      "nombres": "ALEJANDRA",
-      "apellidos": "MUNOZ MORALES",
-      "cedula": "1000000040",
-      "direccion": "Calle 60 # 50-140",
-      "telefono": "3000000040",
+      "id": "w-PT2559256",
+      "nombres": "RUBEN DARIO",
+      "apellidos": "SANCHEZ PLATA",
+      "cedula": "PT 2559256",
+      "direccion": null,
+      "telefono": null,
       "correo": null,
-      "eps": "SURA",
-      "pension": "COLPENSIONES",
-      "contratista": "ROMMEL",
-      "obra": "CASA FRANCISCANA",
+      "eps": null,
+      "pension": null,
+      "contratista": null,
+      "obra": null,
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 40
+        "sheet": "ENERO-26",
+        "cell": "M2"
       }
     },
     {
-      "id": "w-demo-041",
-      "nombres": "ANDRES",
-      "apellidos": "GOMEZ PEREZ",
-      "cedula": "1000000041",
-      "direccion": "Calle 61 # 51-141",
-      "telefono": "3000000041",
+      "id": "w-71271396",
+      "nombres": "JUAN DAVID",
+      "apellidos": "VELEZ RUIZ",
+      "cedula": "71271396",
+      "direccion": null,
+      "telefono": null,
       "correo": null,
-      "eps": "NUEVA EPS",
-      "pension": "PORVENIR",
+      "eps": null,
+      "pension": null,
       "contratista": "GRILLO",
       "obra": "ENVY",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 41
+        "sheet": "BASE DE DATOS",
+        "row": 102
       }
     },
     {
-      "id": "w-demo-042",
-      "nombres": "CAMILA",
-      "apellidos": "RUIZ CARDONA",
-      "cedula": "1000000042",
-      "direccion": "Calle 62 # 52-142",
-      "telefono": "3000000042",
+      "id": "w-71748083",
+      "nombres": "NICOLAS DAYRON",
+      "apellidos": "YEPEZ TABARES",
+      "cedula": "71748083",
+      "direccion": "VEREDA EL AJIZAL (ITAGUI)",
+      "telefono": "3011953942",
       "correo": null,
       "eps": "SAVIA SALUD",
       "pension": "COLPENSIONES",
-      "contratista": "EMPRESA",
-      "obra": "TERCER MILENIO",
+      "contratista": "EMPRESA (ROMMEL)",
+      "obra": "URB SIEMPRE VERDE",
       "estadoManual": null,
       "source": {
-        "sheet": "DEMO",
-        "row": 42
+        "sheet": "MAR-26",
+        "cell": "G66"
       }
     }
   ],
   "events": [
     {
-      "id": "2026-01-w-demo-038-7",
-      "workerId": "w-demo-038",
+      "id": "2026-01-w-1000407886-7",
+      "workerId": "w-1000407886",
       "month": "2026-01",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "ENERO-26",
+      "sourceCell": "M19",
       "obra": "SAN PIO",
       "contratista": "CARLOS RUEDA",
       "eps": "SURA",
@@ -803,11 +803,11 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-01-w-demo-037-6",
-      "workerId": "w-demo-037",
+      "id": "2026-01-w-1035228754-6",
+      "workerId": "w-1035228754",
       "month": "2026-01",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "ENERO-26",
+      "sourceCell": "G19",
       "obra": "IUSH",
       "contratista": "CARLOS RUEDA",
       "eps": "SURA",
@@ -832,12 +832,12 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-01-w-demo-039-4",
-      "workerId": "w-demo-039",
+      "id": "2026-01-w-106431097-4",
+      "workerId": "w-106431097",
       "month": "2026-01",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "CASA FRANCISCANA",
+      "sourceSheet": "ENERO-26",
+      "sourceCell": "S2",
+      "obra": "IUSH, SAN PIO",
       "contratista": "CARLOS RUEDA",
       "eps": "SURA",
       "pension": "COLPENSIONES",
@@ -861,12 +861,12 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-01-w-demo-025-1",
-      "workerId": "w-demo-025",
+      "id": "2026-01-w-1152219553-1",
+      "workerId": "w-1152219553",
       "month": "2026-01",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "ENVY",
+      "sourceSheet": "ENERO-26",
+      "sourceCell": "A2",
+      "obra": "PAR. MARIA REINA",
       "contratista": "CARLOS RUEDA",
       "eps": "NUEVA EPS",
       "pension": "PORVENIR",
@@ -890,13 +890,13 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-01-w-demo-030-5",
-      "workerId": "w-demo-030",
+      "id": "2026-01-w-39427969-5",
+      "workerId": "w-39427969",
       "month": "2026-01",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "SAN PIO",
-      "contratista": "EFREN",
+      "sourceSheet": "ENERO-26",
+      "sourceCell": "A19",
+      "obra": null,
+      "contratista": "MATEO ISAZA",
       "eps": "SANITAS",
       "pension": "PROTECCION",
       "ingreso": {
@@ -919,11 +919,11 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-01-w-demo-034-2",
-      "workerId": "w-demo-034",
+      "id": "2026-01-w-98708132-2",
+      "workerId": "w-98708132",
       "month": "2026-01",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "ENERO-26",
+      "sourceCell": "G2",
       "obra": "RONDALLA",
       "contratista": "EMPRESA",
       "eps": "SURA",
@@ -948,15 +948,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-01-w-demo-040-3",
-      "workerId": "w-demo-040",
+      "id": "2026-01-w-PT2559256-3",
+      "workerId": "w-PT2559256",
       "month": "2026-01",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "IUSH",
-      "contratista": "GRILLO",
-      "eps": "SALUD TOTAL",
-      "pension": "COLFONDOS",
+      "sourceSheet": "ENERO-26",
+      "sourceCell": "M2",
+      "obra": null,
+      "contratista": null,
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "2025-12-02",
         "arlOk": true,
@@ -977,11 +977,11 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-013-5",
-      "workerId": "w-demo-013",
+      "id": "2026-02-w-1000305031-5",
+      "workerId": "w-1000305031",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "FEB-26",
+      "sourceCell": "A19",
       "obra": "RONDALLA",
       "contratista": "JAIR",
       "eps": "SURA",
@@ -1006,15 +1006,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-033-8",
-      "workerId": "w-demo-033",
+      "id": "2026-02-w-1001618370-8",
+      "workerId": "w-1001618370",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "FEB-26",
+      "sourceCell": "S19",
       "obra": "CASA FRANCISCANA",
       "contratista": "EMPRESA",
-      "eps": "SAVIA SALUD",
-      "pension": "PROTECCION",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "2026-02-19",
         "arlOk": true,
@@ -1035,12 +1035,12 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-015-2",
-      "workerId": "w-demo-015",
+      "id": "2026-02-w-1017124356-2",
+      "workerId": "w-1017124356",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "CASA FRANCISCANA",
+      "sourceSheet": "FEB-26",
+      "sourceCell": "G2",
+      "obra": "UNAL",
       "contratista": "GRILLO",
       "eps": "SALUD TOTAL",
       "pension": "PROTECCION",
@@ -1064,15 +1064,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-021-7",
-      "workerId": "w-demo-021",
+      "id": "2026-02-w-1017135390-7",
+      "workerId": "w-1017135390",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "FEB-26",
+      "sourceCell": "M19",
       "obra": "CASA FRANCISCANA",
       "contratista": "EMPRESA",
       "eps": "NUEVA EPS",
-      "pension": "COLFONDOS",
+      "pension": null,
       "ingreso": {
         "fecha": "2026-02-19",
         "arlOk": true,
@@ -1093,11 +1093,11 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-012-13",
-      "workerId": "w-demo-012",
+      "id": "2026-02-w-1039462687-13",
+      "workerId": "w-1039462687",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "FEB-26",
+      "sourceCell": "A53",
       "obra": "RONDALLA",
       "contratista": "EMPRESA",
       "eps": "SURA",
@@ -1122,15 +1122,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-011-3",
-      "workerId": "w-demo-011",
+      "id": "2026-02-w-1049942190-3",
+      "workerId": "w-1049942190",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "FEB-26",
+      "sourceCell": "M2",
       "obra": "RONDALLA",
       "contratista": "EFREN",
-      "eps": "SURA",
-      "pension": "COLFONDOS",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "2026-02-14",
         "arlOk": true,
@@ -1151,14 +1151,14 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-024-6",
-      "workerId": "w-demo-024",
+      "id": "2026-02-w-1214737881-6",
+      "workerId": "w-1214737881",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "VIENTOS DE LA COLINA",
+      "sourceSheet": "FEB-26",
+      "sourceCell": "G19",
+      "obra": null,
       "contratista": "JAIR",
-      "eps": "SURA",
+      "eps": "SAVIA",
       "pension": "PORVENIR",
       "ingreso": {
         "fecha": "2026-02-17",
@@ -1180,12 +1180,12 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-031-9",
-      "workerId": "w-demo-031",
+      "id": "2026-02-w-71211820-9",
+      "workerId": "w-71211820",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "TERCER MILENIO",
+      "sourceSheet": "FEB-26",
+      "sourceCell": "A36",
+      "obra": "RONDALLA (DIMARGAS)",
       "contratista": "EMPRESA",
       "eps": "SURA",
       "pension": "PROTECCION",
@@ -1209,15 +1209,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-022-12",
-      "workerId": "w-demo-022",
+      "id": "2026-02-w-71364908-12",
+      "workerId": "w-71364908",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "FEB-26",
+      "sourceCell": "S36",
       "obra": "RONDALLA",
       "contratista": "EFREN",
-      "eps": "NUEVA EPS",
-      "pension": "COLFONDOS",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "14/02/2026 (13 FEB)",
         "arlOk": true,
@@ -1238,15 +1238,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-002-15",
-      "workerId": "w-demo-002",
+      "id": "2026-02-w-71368815-15",
+      "workerId": "w-71368815",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "FEB-26",
+      "sourceCell": "M53",
       "obra": "VIENTOS DE LA COLINA",
       "contratista": "EMPRESA",
-      "eps": "NUEVA EPS",
-      "pension": "PORVENIR",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "2026-02-23",
         "arlOk": true,
@@ -1267,15 +1267,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-007-14",
-      "workerId": "w-demo-007",
+      "id": "2026-02-w-84091582-14",
+      "workerId": "w-84091582",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "FEB-26",
+      "sourceCell": "G53",
       "obra": "VIENTOS DE LA COLINA",
       "contratista": "EMPRESA",
-      "eps": "SAVIA SALUD",
-      "pension": "PORVENIR",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "2026-02-23",
         "arlOk": true,
@@ -1296,11 +1296,11 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-036-11",
-      "workerId": "w-demo-036",
+      "id": "2026-02-w-9155924-11",
+      "workerId": "w-9155924",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "FEB-26",
+      "sourceCell": "M36",
       "obra": "RONDALLA",
       "contratista": "EFREN",
       "eps": "SALUD TOTAL",
@@ -1325,12 +1325,12 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-005-1",
-      "workerId": "w-demo-005",
+      "id": "2026-02-w-98578370-1",
+      "workerId": "w-98578370",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "SAN PIO",
+      "sourceSheet": "FEB-26",
+      "sourceCell": "A2",
+      "obra": "PARROQUIA MARIA REINA",
       "contratista": "CARLOS RUEDA",
       "eps": "SAVIA SALUD",
       "pension": "COLPENSIONES",
@@ -1354,11 +1354,11 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-034-4",
-      "workerId": "w-demo-034",
+      "id": "2026-02-w-98708132-4",
+      "workerId": "w-98708132",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "FEB-26",
+      "sourceCell": "S2",
       "obra": "RONDALLA",
       "contratista": "JAIR",
       "eps": "SURA",
@@ -1383,15 +1383,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-018-10",
-      "workerId": "w-demo-018",
+      "id": "2026-02-w-PT5817314-10",
+      "workerId": "w-PT5817314",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "FEB-26",
+      "sourceCell": "G36",
       "obra": "RONDALLA",
       "contratista": "EFREN",
-      "eps": "NUEVA EPS",
-      "pension": "PORVENIR",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "2026-02-20",
         "arlOk": true,
@@ -1412,15 +1412,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-02-w-demo-001-17",
-      "workerId": "w-demo-001",
+      "id": "2026-02-w-PT6645170-17",
+      "workerId": "w-PT6645170",
       "month": "2026-02",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "TERCER MILENIO",
+      "sourceSheet": "FEB-26",
+      "sourceCell": "A70",
+      "obra": "RONDALLA - VARIOS",
       "contratista": "ROMMEL",
       "eps": "SAVIA SALUD",
-      "pension": "PORVENIR",
+      "pension": null,
       "ingreso": {
         "fecha": "2026-02-27",
         "arlOk": true,
@@ -1441,12 +1441,12 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-023-14",
-      "workerId": "w-demo-023",
+      "id": "2026-03-w-1001420789-14",
+      "workerId": "w-1001420789",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "CASA FRANCISCANA",
+      "sourceSheet": "MAR-26",
+      "sourceCell": "G50",
+      "obra": null,
       "contratista": "CARLOS RUEDA",
       "eps": "SURA",
       "pension": "PORVENIR",
@@ -1470,11 +1470,11 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-016-11",
-      "workerId": "w-demo-016",
+      "id": "2026-03-w-1020474788-11",
+      "workerId": "w-1020474788",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "MAR-26",
+      "sourceCell": "M34",
       "obra": "SAN PIO",
       "contratista": "CARLOS RUEDA",
       "eps": "SAVIA SALUD",
@@ -1499,15 +1499,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-003-5",
-      "workerId": "w-demo-003",
+      "id": "2026-03-w-1035225591-5",
+      "workerId": "w-1035225591",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "ENVY",
-      "contratista": "CARLOS RUEDA",
+      "sourceSheet": "MAR-26",
+      "sourceCell": "A18",
+      "obra": null,
+      "contratista": "KENIER (EMPRESA)",
       "eps": "SALUD TOTAL",
-      "pension": "PROTECCION",
+      "pension": null,
       "ingreso": {
         "fecha": "2026-03-11",
         "arlOk": true,
@@ -1528,12 +1528,12 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-008-4",
-      "workerId": "w-demo-008",
+      "id": "2026-03-w-1035233589-4",
+      "workerId": "w-1035233589",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "CASA FRANCISCANA",
+      "sourceSheet": "MAR-26",
+      "sourceCell": "S2",
+      "obra": "IGLESIA SAN PIO",
       "contratista": "CARLOS RUEDA",
       "eps": "SURA",
       "pension": "COLPENSIONES",
@@ -1557,15 +1557,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-014-6",
-      "workerId": "w-demo-014",
+      "id": "2026-03-w-1036651870-6",
+      "workerId": "w-1036651870",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "MAR-26",
+      "sourceCell": "G18",
       "obra": "SAN PIO",
       "contratista": "CARLOS RUEDA",
-      "eps": "NUEVA EPS",
-      "pension": "PROTECCION",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "2026-03-18",
         "arlOk": true,
@@ -1586,15 +1586,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-011-1",
-      "workerId": "w-demo-011",
+      "id": "2026-03-w-1049942190-1",
+      "workerId": "w-1049942190",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "MAR-26",
+      "sourceCell": "A2",
       "obra": "RONDALLA",
       "contratista": "EFREN",
-      "eps": "SURA",
-      "pension": "COLFONDOS",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "2026-03-03",
         "arlOk": true,
@@ -1615,12 +1615,12 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-027-13",
-      "workerId": "w-demo-027",
+      "id": "2026-03-w-1128443231-13",
+      "workerId": "w-1128443231",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "ENVY",
+      "sourceSheet": "MAR-26",
+      "sourceCell": "A50",
+      "obra": null,
       "contratista": "CARLOS RUEDA",
       "eps": "SURA",
       "pension": "PORVENIR",
@@ -1644,11 +1644,11 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-028-8",
-      "workerId": "w-demo-028",
+      "id": "2026-03-w-1146437351-8",
+      "workerId": "w-1146437351",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "MAR-26",
+      "sourceCell": "S18",
       "obra": "SAN PIO",
       "contratista": "CARLOS RUEDA",
       "eps": "SALUD TOTAL",
@@ -1673,15 +1673,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-022-3",
-      "workerId": "w-demo-022",
+      "id": "2026-03-w-71364908-3",
+      "workerId": "w-71364908",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "MAR-26",
+      "sourceCell": "M2",
       "obra": "RONDALLA",
       "contratista": "EFREN",
-      "eps": "NUEVA EPS",
-      "pension": "COLFONDOS",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "03 MA",
         "arlOk": true,
@@ -1702,15 +1702,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-010-20",
-      "workerId": "w-demo-010",
+      "id": "2026-03-w-71367851-20",
+      "workerId": "w-71367851",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "VIENTOS DE LA COLINA",
+      "sourceSheet": "MAR-26",
+      "sourceCell": "S66",
+      "obra": "TORRELAGUNA (TOTTEM)",
       "contratista": "JAIR",
-      "eps": "SAVIA SALUD",
-      "pension": "COLFONDOS",
+      "eps": "ALIANZA",
+      "pension": null,
       "ingreso": {
         "fecha": "2026-03-25",
         "arlOk": true,
@@ -1731,13 +1731,13 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-042-18",
-      "workerId": "w-demo-042",
+      "id": "2026-03-w-71748083-18",
+      "workerId": "w-71748083",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "TERCER MILENIO",
-      "contratista": "EMPRESA",
+      "sourceSheet": "MAR-26",
+      "sourceCell": "G66",
+      "obra": "URB SIEMPRE VERDE",
+      "contratista": "EMPRESA (ROMMEL)",
       "eps": "SAVIA SALUD",
       "pension": "COLPENSIONES",
       "ingreso": {
@@ -1760,11 +1760,11 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-004-21",
-      "workerId": "w-demo-004",
+      "id": "2026-03-w-8125734-21",
+      "workerId": "w-8125734",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "MAR-26",
+      "sourceCell": "A82",
       "obra": "CASA FRANCISCANA",
       "contratista": "EMPRESA",
       "eps": "SALUD TOTAL",
@@ -1789,11 +1789,11 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-036-2",
-      "workerId": "w-demo-036",
+      "id": "2026-03-w-9155924-2",
+      "workerId": "w-9155924",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "MAR-26",
+      "sourceCell": "G2",
       "obra": "RONDALLA",
       "contratista": "EFREN",
       "eps": "SALUD TOTAL",
@@ -1818,12 +1818,12 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-034-19",
-      "workerId": "w-demo-034",
+      "id": "2026-03-w-98708132-19",
+      "workerId": "w-98708132",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "RONDALLA",
+      "sourceSheet": "MAR-26",
+      "sourceCell": "M66",
+      "obra": "TORRELAGUNA (TOTTEM)",
       "contratista": "JAIR",
       "eps": "SURA",
       "pension": "COLFONDOS",
@@ -1847,11 +1847,11 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-029-7",
-      "workerId": "w-demo-029",
+      "id": "2026-03-w-98716538-7",
+      "workerId": "w-98716538",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "MAR-26",
+      "sourceCell": "M18",
       "obra": "SAN PIO",
       "contratista": "CARLOS RUEDA",
       "eps": "SURA",
@@ -1876,15 +1876,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-019-12",
-      "workerId": "w-demo-019",
+      "id": "2026-03-w-98773911-12",
+      "workerId": "w-98773911",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "MAR-26",
+      "sourceCell": "S34",
       "obra": "SAN PIO",
       "contratista": "CARLOS RUEDA",
-      "eps": "SANITAS",
-      "pension": "PROTECCION",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "2026-03-16",
         "arlOk": true,
@@ -1905,13 +1905,13 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-020-9",
-      "workerId": "w-demo-020",
+      "id": "2026-03-w-PT6856753-9",
+      "workerId": "w-PT6856753",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "RONDALLA",
-      "contratista": "JHONATAN RUIZ",
+      "sourceSheet": "MAR-26",
+      "sourceCell": "A34",
+      "obra": "APARTAMENTO SIEMPRE VERDE",
+      "contratista": "ROMMEL (EMPRESA)",
       "eps": "NUEVA EPS",
       "pension": "PROTECCION",
       "ingreso": {
@@ -1934,13 +1934,13 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-03-w-demo-035-10",
-      "workerId": "w-demo-035",
+      "id": "2026-03-w-PT7009675-10",
+      "workerId": "w-PT7009675",
       "month": "2026-03",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
-      "obra": "RONDALLA",
-      "contratista": "JHONATAN RUIZ",
+      "sourceSheet": "MAR-26",
+      "sourceCell": "G34",
+      "obra": "APARTAMENTO SIEMPRE VERDE",
+      "contratista": "ROMMEL (EMPRESA)",
       "eps": "SURA",
       "pension": "COLPENSIONES",
       "ingreso": {
@@ -1963,15 +1963,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-04-w-demo-006-3",
-      "workerId": "w-demo-006",
+      "id": "2026-04-w-1007781559-3",
+      "workerId": "w-1007781559",
       "month": "2026-04",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "ABRIL-26",
+      "sourceCell": "M2",
       "obra": "TERCER MILENIO",
       "contratista": "JHONATAN RUIZ",
-      "eps": "SURA",
-      "pension": "PROTECCION",
+      "eps": "MUTUAL 8TRASLADO NUEVA EPS)",
+      "pension": null,
       "ingreso": {
         "fecha": "2026-04-16",
         "arlOk": true,
@@ -1992,15 +1992,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-04-w-demo-015-5",
-      "workerId": "w-demo-015",
+      "id": "2026-04-w-1017124356-5",
+      "workerId": "w-1017124356",
       "month": "2026-04",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "ABRIL-26",
+      "sourceCell": "A18",
       "obra": "ENVY",
       "contratista": "GRILLO",
-      "eps": "SALUD TOTAL",
-      "pension": "COLPENSIONES",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "2026-04-24",
         "arlOk": true,
@@ -2021,14 +2021,14 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-04-w-demo-032-2",
-      "workerId": "w-demo-032",
+      "id": "2026-04-w-1063787402-2",
+      "workerId": "w-1063787402",
       "month": "2026-04",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "ABRIL-26",
+      "sourceCell": "G2",
       "obra": "TERCER MILENIO",
-      "contratista": "JHONATAN RUIZ",
-      "eps": "SURA",
+      "contratista": "JONATHAN RUIZ",
+      "eps": "SAVIA",
       "pension": "COLPENSIONES",
       "ingreso": {
         "fecha": "2026-04-16",
@@ -2050,15 +2050,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-04-w-demo-041-6",
-      "workerId": "w-demo-041",
+      "id": "2026-04-w-71271396-6",
+      "workerId": "w-71271396",
       "month": "2026-04",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "ABRIL-26",
+      "sourceCell": "G18",
       "obra": "ENVY",
       "contratista": "GRILLO",
-      "eps": "SALUD TOTAL",
-      "pension": "COLFONDOS",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "2026-04-24",
         "arlOk": true,
@@ -2079,15 +2079,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-04-w-demo-004-1",
-      "workerId": "w-demo-004",
+      "id": "2026-04-w-8125734-1",
+      "workerId": "w-8125734",
       "month": "2026-04",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "ABRIL-26",
+      "sourceCell": "A2",
       "obra": "TERCER MILENIO",
-      "contratista": "EFREN",
-      "eps": "SANITAS",
-      "pension": "COLFONDOS",
+      "contratista": "JONNATHAN",
+      "eps": null,
+      "pension": null,
       "ingreso": {
         "fecha": "2026-04-16",
         "arlOk": true,
@@ -2108,11 +2108,11 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-04-w-demo-009-4",
-      "workerId": "w-demo-009",
+      "id": "2026-04-w-98622665-4",
+      "workerId": "w-98622665",
       "month": "2026-04",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "ABRIL-26",
+      "sourceCell": "S2",
       "obra": "TERCER MILENIO",
       "contratista": "JHONATAN RUIZ",
       "eps": "SURA",
@@ -2137,15 +2137,15 @@ window.SEED_DATA = {
       }
     },
     {
-      "id": "2026-04-w-demo-017-7",
-      "workerId": "w-demo-017",
+      "id": "2026-04-w-98697154-7",
+      "workerId": "w-98697154",
       "month": "2026-04",
-      "sourceSheet": "DEMO",
-      "sourceCell": null,
+      "sourceSheet": "ABRIL-26",
+      "sourceCell": "M18",
       "obra": "SAN PIO",
       "contratista": "CARLOS RUEDA",
       "eps": "SALUD TOTAL",
-      "pension": "COLPENSIONES",
+      "pension": "PROTECCIÓN",
       "ingreso": {
         "fecha": "2026-04-28",
         "arlOk": false,
@@ -2172,15 +2172,26 @@ window.SEED_DATA = {
       "CARLOS RUEDA",
       "EFREN",
       "EMPRESA",
+      "EMPRESA (ROMMEL)",
       "GRILLO",
       "JAIR",
       "JHONATAN RUIZ",
-      "ROMMEL"
+      "JONATHAN",
+      "JONATHAN RUIZ",
+      "JONNATHAN",
+      "KENIER (EMPRESA)",
+      "MATEO ISAZA",
+      "ROMMEL",
+      "ROMMEL (EMPRESA)"
     ],
     "eps": [
+      "ALIANZA",
+      "MUTUAL",
+      "MUTUAL 8TRASLADO NUEVA EPS)",
       "NUEVA EPS",
       "SALUD TOTAL",
       "SANITAS",
+      "SAVIA",
       "SAVIA SALUD",
       "SURA"
     ],
@@ -2188,7 +2199,8 @@ window.SEED_DATA = {
       "COLFONDOS",
       "COLPENSIONES",
       "PORVENIR",
-      "PROTECCION"
+      "PROTECCION",
+      "PROTECCIÓN"
     ]
   }
 };

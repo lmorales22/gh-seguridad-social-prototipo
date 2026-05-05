@@ -2,8 +2,6 @@
 
 Prototipo vivo para gestionar base de trabajadores, ingresos, retiros y novedades mensuales de seguridad social.
 
-Esta publicación usa datos demo anonimizados. Los archivos Excel reales y la información personal de trabajadores no hacen parte del repositorio público.
-
 ## Qué incluye
 
 - Base histórica de trabajadores, aunque estén vigentes o retirados.
@@ -47,4 +45,4 @@ http://localhost:4173
 2. En `Settings > Pages`, selecciona la rama principal y la carpeta raíz.
 3. GitHub Pages publicará el dashboard estático.
 
-El archivo `data/seed-data.js` fue anonimizado para publicación. La versión local conserva los Excel reales fuera del repositorio público.
+El archivo `data/seed-data.js` fue generado desde `INGRESOS Y RETIROS (SEGURIDAD SOCIAL).xlsx`. El Excel original queda como fuente inicial de auditoría.

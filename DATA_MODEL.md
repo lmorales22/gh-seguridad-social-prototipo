@@ -47,7 +47,7 @@ Cada novedad pertenece a un trabajador y a un mes.
 
 ## Referencia de planilla
 
-`data/planilla-reference.js` contiene una referencia demo basada en la estructura de liquidación:
+`data/planilla-reference.js` contiene la lectura de `Planilla liquidacion.xlsx`:
 
 - Tipo y número de identificación.
 - Banderas `ing` y `ret` observadas en la liquidación.

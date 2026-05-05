@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GH Seguridad Social</title>
+    <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="10" fill="%2317211f"/><text x="12" y="40" font-size="24" font-family="Arial" font-weight="700" fill="white">GH</text></svg>' />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="stylesheet" href="./styles.css?v=4" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Navegación principal">
+        <div class="brand">
+          <span class="brand-mark">GH</span>
+          <div>
+            <strong>Seguridad Social</strong>
+            <span>Prototipo vivo</span>
+          </div>
+        </div>
+
+        <nav class="nav-list">
+          <button class="nav-item active" type="button" data-view="dashboard">
+            <i data-lucide="layout-dashboard"></i>
+            <span>Resumen</span>
+          </button>
+          <button class="nav-item" type="button" data-view="activos">
+            <i data-lucide="users-round"></i>
+            <span>Activos</span>
+          </button>
+          <button class="nav-item" type="button" data-view="liquidacion">
+            <i data-lucide="clipboard-check"></i>
+            <span>Liquidación</span>
+          </button>
+          <button class="nav-item" type="button" data-view="meses">
+            <i data-lucide="calendar-days"></i>
+            <span>Meses</span>
+          </button>
+          <button class="nav-item" type="button" data-view="historial">
+            <i data-lucide="archive"></i>
+            <span>Historial</span>
+          </button>
+          <button class="nav-item" type="button" data-view="base">
+            <i data-lucide="database"></i>
+            <span>Base</span>
+          </button>
+        </nav>
+
+        <div class="source-box">
+          <span>Fuente inicial</span>
+          <strong>DATOS DEMO</strong>
+          <small id="seedMeta">Excel importado</small>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Gestión humana</p>
+            <h1 id="pageTitle">Resumen operativo</h1>
+          </div>
+          <div class="top-actions">
+            <button class="ghost-button" type="button" id="exportPlanillaBtn">
+              <i data-lucide="file-spreadsheet"></i>
+              <span>Planilla XLSX</span>
+            </button>
+            <button class="ghost-button" type="button" id="exportPilaBtn">
+              <i data-lucide="file-down"></i>
+              <span>PILA CSV</span>
+            </button>
+            <button class="ghost-button" type="button" id="exportJsonBtn">
+              <i data-lucide="download"></i>
+              <span>JSON</span>
+            </button>
+            <button class="ghost-button" type="button" id="importJsonBtn">
+              <i data-lucide="upload"></i>
+              <span>Importar</span>
+            </button>
+            <button class="primary-button" type="button" id="newWorkerBtn">
+              <i data-lucide="user-plus"></i>
+              <span>Trabajador</span>
+            </button>
+          </div>
+        </header>
+
+        <section class="filters" aria-label="Filtros">
+          <label class="field search-field">
+            <span>Buscar</span>
+            <input id="searchInput" type="search" placeholder="Nombre, cédula, EPS..." autocomplete="off" />
+          </label>
+          <label class="field">
+            <span>Mes</span>
+            <select id="monthSelect"></select>
+          </label>
+          <label class="field">
+            <span>Contratista</span>
+            <select id="contractorSelect"></select>
+          </label>
+          <label class="field">
+            <span>EPS</span>
+            <select id="epsSelect"></select>
+          </label>
+          <button class="icon-button" type="button" id="clearFiltersBtn" aria-label="Limpiar filtros" title="Limpiar filtros">
+            <i data-lucide="x"></i>
+          </button>
+        </section>
+
+        <section id="content" class="content" aria-live="polite"></section>
+      </main>
+
+      <aside id="detailPanel" class="detail-panel" aria-label="Detalle del trabajador"></aside>
+    </div>
+
+    <dialog id="workerDialog" class="dialog">
+      <form id="workerForm" method="dialog" class="dialog-card">
+        <header>
+          <div>
+            <p class="eyebrow">Base de datos</p>
+            <h2 id="dialogTitle">Registrar trabajador</h2>
+          </div>
+          <button class="icon-button" type="button" data-close-dialog aria-label="Cerrar" title="Cerrar">
+            <i data-lucide="x"></i>
+          </button>
+        </header>
+
+        <input type="hidden" name="workerId" />
+        <div class="form-grid">
+          <label class="field">
+            <span>Nombres</span>
+            <input name="nombres" required />
+          </label>
+          <label class="field">
+            <span>Apellidos</span>
+            <input name="apellidos" required />
+          </label>
+          <label class="field">
+            <span>Cédula</span>
+            <input name="cedula" required />
+          </label>
+          <label class="field">
+            <span>Teléfono</span>
+            <input name="telefono" />
+          </label>
+          <label class="field span-2">
+            <span>Dirección</span>
+            <input name="direccion" />
+          </label>
+          <label class="field">
+            <span>Correo</span>
+            <input name="correo" type="email" />
+          </label>
+          <label class="field">
+            <span>EPS</span>
+            <input name="eps" list="epsOptions" />
+          </label>
+          <label class="field">
+            <span>Pensión</span>
+            <input name="pension" list="pensionOptions" />
+          </label>
+          <label class="field">
+            <span>Obra</span>
+            <input name="obra" />
+          </label>
+          <label class="field">
+            <span>Contratista</span>
+            <input name="contratista" list="contractorOptions" />
+          </label>
+        </div>
+
+        <section class="inline-section">
+          <label class="check-row strong-check">
+            <input name="createIngreso" type="checkbox" checked />
+            <span>Registrar ingreso en el mes seleccionado</span>
+          </label>
+          <div class="form-grid compact">
+            <label class="field">
+              <span>Fecha ingreso</span>
+              <input name="ingresoFecha" type="date" />
+            </label>
+            <label class="check-row">
+              <input name="ingresoArl" type="checkbox" />
+              <span>ARL hecha</span>
+            </label>
+            <label class="check-row">
+              <input name="ingresoEps" type="checkbox" />
+              <span>EPS hecha</span>
+            </label>
+            <label class="check-row">
+              <input name="ingresoPila" type="checkbox" />
+              <span>PILA lista</span>
+            </label>
+          </div>
+        </section>
+
+        <footer>
+          <button class="ghost-button" type="button" id="resetDataBtn">
+            <i data-lucide="rotate-ccw"></i>
+            <span>Restaurar semilla</span>
+          </button>
+          <div class="dialog-actions">
+            <button class="ghost-button" type="button" data-close-dialog>Cancelar</button>
+            <button class="primary-button" type="submit">
+              <i data-lucide="save"></i>
+              <span>Guardar</span>
+            </button>
+          </div>
+        </footer>
+      </form>
+    </dialog>
+
+    <input id="jsonFileInput" type="file" accept="application/json,.json" hidden />
+    <datalist id="epsOptions"></datalist>
+    <datalist id="pensionOptions"></datalist>
+    <datalist id="contractorOptions"></datalist>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="./data/seed-data.js?v=4"></script>
+    <script src="./data/planilla-reference.js?v=4"></script>
+    <script src="./app.js?v=4"></script>
+  </body>
+</html>

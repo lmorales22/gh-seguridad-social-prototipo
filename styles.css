@@ -1,20 +1,38 @@
 :root {
-  --bg: #f5f7f8;
-  --surface: #ffffff;
-  --surface-2: #eef3f3;
-  --line: #d8e0df;
-  --line-strong: #b9c8c5;
-  --ink: #17211f;
-  --muted: #60706c;
-  --accent: #0f766e;
-  --accent-2: #1d4ed8;
-  --good: #15803d;
-  --good-bg: #e8f6ec;
-  --warn: #b7791f;
-  --warn-bg: #fff5d6;
-  --bad: #b42318;
-  --bad-bg: #fae8e6;
-  --shadow: 0 20px 50px rgba(23, 33, 31, 0.08);
+  --tottem-ink: #111512;
+  --tottem-muted: #65716b;
+  --tottem-line: #d8ded8;
+  --tottem-soft: #ecefec;
+  --tottem-paper: #f6f7f3;
+  --tottem-panel: #ffffff;
+  --tottem-ivory: #fffdf8;
+  --tottem-black: #050504;
+  --tottem-rail: #131410;
+  --tottem-brand-muted: #9ea8a1;
+  --tottem-mint: #e2f0e8;
+  --tottem-mint-soft: #eff7f2;
+  --tottem-mint-line: rgba(36, 118, 94, 0.16);
+  --tottem-green: #24765e;
+  --tottem-green-dark: #124c3b;
+  --tottem-warn: #a8662a;
+  --tottem-danger: #a1433d;
+  --tottem-shadow: 0 18px 50px rgba(28, 33, 29, 0.08);
+  --bg: var(--tottem-paper);
+  --surface: var(--tottem-panel);
+  --surface-2: var(--tottem-soft);
+  --line: var(--tottem-line);
+  --line-strong: #bfc8bf;
+  --ink: var(--tottem-ink);
+  --muted: var(--tottem-muted);
+  --accent: var(--tottem-green);
+  --accent-2: var(--tottem-green-dark);
+  --good: var(--tottem-green-dark);
+  --good-bg: var(--tottem-mint-soft);
+  --warn: var(--tottem-warn);
+  --warn-bg: #f8eddd;
+  --bad: var(--tottem-danger);
+  --bad-bg: #f4e6e3;
+  --shadow: var(--tottem-shadow);
   --radius: 8px;
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -29,6 +47,7 @@ body {
   min-height: 100svh;
   background: var(--bg);
   color: var(--ink);
+  letter-spacing: 0;
 }
 
 button,
@@ -43,17 +62,19 @@ button {
 
 .app-shell {
   display: grid;
-  grid-template-columns: 248px minmax(0, 1fr) 360px;
+  grid-template-columns: 268px minmax(0, 1fr) 372px;
   min-height: 100svh;
+  background: var(--tottem-paper);
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  border-right: 1px solid var(--line);
-  background: #fbfcfc;
-  padding: 22px 16px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--tottem-rail);
+  color: white;
+  padding: 24px 18px;
 }
 
 .brand {
@@ -64,15 +85,20 @@ button {
 }
 
 .brand-mark {
-  display: grid;
-  place-items: center;
-  width: 42px;
-  height: 42px;
-  border-radius: var(--radius);
-  background: var(--ink);
-  color: white;
-  font-weight: 800;
-  letter-spacing: 0;
+  display: block;
+  width: 72px;
+  height: 34px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: transparent;
+  flex: 0 0 auto;
+}
+
+.brand-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .brand strong,
@@ -82,10 +108,11 @@ button {
 
 .brand strong {
   font-size: 15px;
+  color: white;
 }
 
 .brand div span {
-  color: var(--muted);
+  color: var(--tottem-brand-muted);
   font-size: 12px;
   margin-top: 2px;
 }
@@ -118,36 +145,44 @@ button {
 
 .nav-item {
   justify-content: flex-start;
-  color: var(--muted);
+  color: #c8d0ca;
+  border-color: transparent;
 }
 
 .nav-item:hover,
-.ghost-button:hover,
-.icon-button:hover {
-  background: var(--surface-2);
-  color: var(--ink);
+.sidebar .nav-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
 }
 
 .nav-item.active {
-  background: #e5f3ef;
-  color: var(--accent);
+  background: white;
+  color: var(--tottem-green-dark);
   font-weight: 700;
 }
 
 .primary-button {
-  background: var(--accent);
+  background: var(--tottem-black);
   color: white;
   font-weight: 700;
 }
 
 .primary-button:hover {
   transform: translateY(-1px);
-  background: #0b665f;
+  background: var(--tottem-green-dark);
 }
 
 .ghost-button {
   border-color: var(--line);
-  background: var(--surface);
+  background: var(--tottem-ivory);
+}
+
+.ghost-button:hover,
+.icon-button:hover {
+  transform: translateY(-1px);
+  background: white;
+  border-color: var(--tottem-mint-line);
+  color: var(--tottem-green-dark);
 }
 
 .icon-button {
@@ -161,20 +196,20 @@ button {
   margin-top: auto;
   display: grid;
   gap: 6px;
-  border-top: 1px solid var(--line);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
   padding-top: 18px;
-  color: var(--muted);
+  color: var(--tottem-brand-muted);
   font-size: 12px;
 }
 
 .source-box strong {
-  color: var(--ink);
+  color: white;
   font-size: 13px;
 }
 
 .workspace {
   min-width: 0;
-  padding: 24px;
+  padding: 28px;
 }
 
 .topbar {
@@ -188,14 +223,14 @@ button {
 .topbar h1,
 .dialog h2 {
   margin: 0;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 1.15;
   letter-spacing: 0;
 }
 
 .eyebrow {
   margin: 0 0 6px;
-  color: var(--accent);
+  color: var(--tottem-green-dark);
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
@@ -214,9 +249,10 @@ button {
   grid-template-columns: minmax(220px, 1.4fr) repeat(3, minmax(140px, 0.7fr)) 38px;
   gap: 10px;
   align-items: end;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  padding: 14px 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 253, 248, 0.7);
+  padding: 14px;
   margin-bottom: 18px;
 }
 
@@ -238,15 +274,15 @@ button {
   width: 100%;
   min-height: 38px;
   border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--surface);
+  border-radius: 6px;
+  background: var(--tottem-ivory);
   color: var(--ink);
   padding: 0 10px;
 }
 
 .field input:focus,
 .field select:focus {
-  outline: 2px solid rgba(15, 118, 110, 0.18);
+  outline: 2px solid var(--tottem-mint-line);
   border-color: var(--accent);
 }
 
@@ -258,15 +294,16 @@ button {
 .kpi-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 10px;
+  gap: 12px;
 }
 
 .kpi {
   min-width: 0;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: var(--surface);
-  padding: 14px;
+  background: rgba(255, 255, 255, 0.76);
+  padding: 18px;
+  box-shadow: 0 1px 0 rgba(17, 21, 18, 0.03);
 }
 
 .kpi .status-chip {
@@ -279,12 +316,14 @@ button {
   color: var(--muted);
   font-size: 12px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .kpi strong {
   display: block;
   margin-top: 8px;
-  font-size: 30px;
+  color: var(--tottem-green-dark);
+  font-size: 34px;
   line-height: 1;
 }
 
@@ -298,8 +337,9 @@ button {
 .panel {
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: var(--surface);
+  background: var(--tottem-panel);
   overflow: hidden;
+  box-shadow: 0 1px 0 rgba(17, 21, 18, 0.03);
 }
 
 .panel-header {
@@ -308,7 +348,7 @@ button {
   align-items: center;
   gap: 12px;
   border-bottom: 1px solid var(--line);
-  padding: 14px;
+  padding: 16px;
 }
 
 .panel-header h2,
@@ -345,7 +385,7 @@ button {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  background: #fbfcfc;
+  background: var(--tottem-ivory);
 }
 
 .worker-table tr {
@@ -353,7 +393,7 @@ button {
 }
 
 .worker-table tbody tr:hover {
-  background: #f0f7f6;
+  background: var(--tottem-mint-soft);
 }
 
 .worker-name {
@@ -387,6 +427,7 @@ button {
 .status-chip.active,
 .mini-chip.ok {
   background: var(--good-bg);
+  border: 1px solid var(--tottem-mint-line);
   color: var(--good);
 }
 
@@ -403,7 +444,8 @@ button {
 }
 
 .status-chip.base {
-  background: #e8eefb;
+  background: var(--tottem-mint-soft);
+  border: 1px solid var(--tottem-mint-line);
   color: var(--accent-2);
 }
 
@@ -459,14 +501,14 @@ button {
   height: 9px;
   overflow: hidden;
   border-radius: 999px;
-  background: var(--surface-2);
+  background: var(--tottem-mint);
 }
 
 .bar span {
   display: block;
   height: 100%;
   border-radius: inherit;
-  background: var(--accent);
+  background: var(--tottem-green);
 }
 
 .event-grid {
@@ -503,8 +545,8 @@ button {
 
 .detail-panel {
   border-left: 1px solid var(--line);
-  background: #fbfcfc;
-  padding: 18px;
+  background: var(--tottem-ivory);
+  padding: 20px;
   overflow: auto;
   max-height: 100svh;
 }
@@ -578,7 +620,7 @@ button {
   gap: 8px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: var(--surface);
+  background: var(--tottem-ivory);
   padding: 10px;
 }
 
@@ -720,7 +762,7 @@ button {
   gap: 12px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: #fbfcfc;
+  background: var(--tottem-ivory);
   padding: 14px;
 }
 
